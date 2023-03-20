@@ -1,0 +1,60 @@
+.Flat20 {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;  
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Flat20L{
+    padding: 0;
+    margin: 0;
+    max-width: 50%;  
+    order:1;
+}
+
+.Flat20R{
+    padding: 0;
+    margin: 0;
+    max-width: 50%;  
+    order:2;
+}
+
+
+
+/* /////////////////////////////////////////  --- Mobile View --- /////////////////////////////// */
+@media screen and (max-width:400px) {
+
+    .Flat20 {
+        padding: 0;
+        margin: 0;
+        max-width: 100%;  
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .Flat20L{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;  
+        order:2;
+    }
+    
+    .Flat20R{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;  
+        order:1;
+    }
+
+
+
+
+
+
+}

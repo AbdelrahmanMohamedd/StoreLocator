@@ -1,0 +1,51 @@
+.crocsMain {
+    padding: 70px; 
+    max-width: 100%;  
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-between;
+    gap:15px
+}
+
+.crocsL{ 
+    max-width: 50%;   
+}
+
+.crocsR{ 
+    max-width: 50%;   
+}
+
+
+
+/* /////////////////////////////////////////  --- Mobile View --- /////////////////////////////// */
+@media screen and (max-width:400px) {
+
+    .crocsMain {
+        margin-top: 15px;
+        padding: 15px; 
+        max-width: 100%;  
+        display: flex; 
+        justify-self: center; 
+        flex-direction: column;
+    }
+    
+    .crocsL{ 
+        margin: 0;
+        max-width: 100%;   
+        padding-bottom: 10px;
+    }
+    
+    .crocsR{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;   
+        padding-bottom: 15px;
+    }
+
+
+
+
+
+
+}

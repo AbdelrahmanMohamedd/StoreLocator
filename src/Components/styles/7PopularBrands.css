@@ -1,0 +1,112 @@
+.BrandsbackgroundCircle{
+    background-color: #2d2f87;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%; 
+    margin-left: 5px;
+}
+
+
+.PopularBrandsMain {
+    white-space: nowrap;
+    padding-bottom: 50px;
+}
+
+
+.PopularBrandsTitle {
+    color: #2d2f87;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 10px 30px 100px
+}
+
+
+.PopularBrandsItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.PopularBrandsImages {
+    margin-top: 10%;
+    width: 70%;
+    height: 70%;
+}
+
+.PopularBrandsNames {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.arrowsImg {
+    height: 50px;
+    margin-top: 70%;
+}
+
+
+
+/* /////////////////////////////////////////  --- Mobile View --- /////////////////////////////// */
+@media screen and (max-width:400px) {
+
+
+    .PopularBrandsMain{
+        white-space: nowrap;
+        padding-bottom: 25px;
+        overflow: scroll;
+
+    }
+
+    ::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .PopularBrandsTitle {
+        color: #2d2f87;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 30px 10px 20px 30px
+    }
+
+
+    .PopularBrandsItems {
+        margin: 0% 5% 0% 5%;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+    .PopularBrandsImages {
+        width: 70px;
+        height: 70px;
+    }
+
+    .PopularBrandsNames {
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .arrowsImg {
+        display: none;
+    }
+
+    .BrandsbackgroundCircle{
+        background-color: #2d2f87;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%; 
+        margin-left: 5px;
+    } 
+}
+
+
+
+
+
+
+
+
+

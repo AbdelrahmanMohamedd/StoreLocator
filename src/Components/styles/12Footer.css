@@ -1,0 +1,39 @@
+.myFooter{
+    padding: 5%;
+    height: 17rem;
+    align-items:center; 
+    display: flex;
+    background-color:  #fcfbfb;
+    border-top:  1px solid gray;
+    gap:350px
+}
+
+.tableHead{
+    font-size:25px;
+    font-weight:600;
+    padding-bottom:10px;
+}
+
+.tablebody{
+    font-size:20px;
+    font-weight:lighter; 
+}
+/* /////////////////////////////////////////  --- Mobile View --- /////////////////////////////// */
+@media screen and (max-width:400px)  {
+    .myFooter{   
+        display: grid;  
+        gap:10px
+    }
+
+    .tableHead{
+        font-size:15px;
+        font-weight:600;
+        padding-bottom:10px;
+    }
+
+    .tablebody{
+        font-size:15px;
+        font-weight:lighter;
+    }
+
+} 
